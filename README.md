@@ -2,7 +2,7 @@
 
 1. In this analysis considered the level 1A, 1B, 2A, 2B variants those are from the pharmgkb version4 updated database sheet.
    
-2.Extracted the positional information for those variants from emsambl database. The supporting variants file contains the Genes, rsID, CHROM, POS, REF, ALT columns.
+2. Extracted the positional information for those variants from emsambl database. The supporting variants file contains the Genes, rsID, CHROM, POS, REF, ALT columns.
 
 3. This support file mapped with the 1232 Aigprx samples to retrieve the variants on the basis of CHROM, POS, REF, ALT columns.
    
