@@ -19,4 +19,4 @@ vcf.loc[vcf['HET'] == '1', 'Zygosity'] = 'Heterozygous'
 vcf.drop(columns=['HET', 'HOM'], inplace=True)
 common = pd.merge(vcf, df, on = ['CHROM', 'POS', 'REF', 'ALT'], how = 'inner', sort = False)
 common.to_excel("/{}_snp.xlsx".format(sys.argv[1], sys.argv[1]), index = False)
-common
+print(common)
