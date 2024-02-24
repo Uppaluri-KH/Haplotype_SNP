@@ -1,6 +1,6 @@
 # Haplotype_SNP
 
-1. In this analysis considered the level 1A, 1B, 2A, 2B variants those are from the pharmgkb version4 updated database sheet.
+1. In this analysis considered the level 1A, 1B, 2A, 2B variants (**pharmgkb_snp_rsID**)those are from the pharmgkb version4 updated database.
    
 2. Extracted the positional information for those variants from emsambl database. The supporting variants file contains the Genes, rsID, CHROM, POS, REF, ALT columns.
 
